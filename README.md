@@ -2,7 +2,7 @@
 Assignment for Karkhana.io.
 Write a Python script that models a Mobius strip using parametric equations and computes key geometric properties.
 
-1. Requirements
+**1. Requirements**
 Define a MobiusStrip class that:
 Accepts:
 Radius R (distance from the center to the strip)
@@ -13,7 +13,7 @@ A 3D mesh/grid of (x, y, z) points on the surface
 Surface area (numerically, using integration or approximation)
 Edge length (numerically along the boundary)
 
-2. Parametric Equation of Mobius Strip
+**2. Parametric Equation of Mobius Strip**
 Use the parametric equations:
 x(u,v)=(R+v⋅cos⁡(u2))⋅cos⁡(u)
 y(u,v)=(R+v⋅cos⁡(u2))⋅sin⁡(u)
